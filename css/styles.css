@@ -58,17 +58,14 @@ ul {
   color: #ffffff;
 }
 .hero-heading .button {
+  cursor: pointer;
   font-family: "Roboto";
   background-color: var(--link-button-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .section-attributes .name {
   font-weight: 700;
@@ -105,6 +102,7 @@ ul {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .buttons-list .button:hover,
 .buttons-list .button:focus {
