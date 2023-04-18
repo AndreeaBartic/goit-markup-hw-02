@@ -33,11 +33,11 @@ ul {
 .global-header .link {
   font-weight: 500;
   text-decoration: none;
-  color: var(--link1-color);
+  color: #212121;
 }
-.link:hover,
-.link:focus,
-.link:active {
+
+.global-header .link:hover,
+.global-header .link:focus {
   color: #2196f3;
 }
 .contacts .link {
@@ -46,7 +46,7 @@ ul {
 .hero-heading {
   background-color: #2f303a;
 }
-.title {
+.hero-heading .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -55,7 +55,7 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
-.button {
+.hero-heading .button {
   font-family: "Roboto";
   background-color: #2196f3;
   font-weight: 700;
@@ -68,19 +68,20 @@ ul {
   color: #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.section h3 {
+.section-list .name {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section p {
+.section-list .description {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section h2 {
+.section-work,
+.section-team h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -88,14 +89,15 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .global-footer {
   background-color: #2f303a;
 }
-.logo {
+.global-footer .logo {
   text-decoration: none;
 }
 .location {
-  ont-family: "Roboto";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
@@ -105,7 +107,7 @@ ul {
 }
 
 .email {
-  ont-family: "Roboto";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
@@ -116,7 +118,7 @@ ul {
 }
 
 .phone-number {
-  ont-family: "Roboto";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
