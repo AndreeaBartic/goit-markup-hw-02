@@ -103,6 +103,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: 0;
 }
 .buttons-list .button:hover,
 .buttons-list .button:focus {
